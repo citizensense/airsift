@@ -99,17 +99,17 @@ Ref:
 
 1. Create shiny-system folder via terminal:
 
-    mkdir /srv/shiny-system/
+    $ mkdir /srv/shiny-system/
 
 2. Create cron folder and keep cpu.R in this folder.
 
 3. Start the crontab editor from a terminal window,
 
-    crontab -e
+    $ crontab -e
 
 4. Add entries to your own user's crontab file,
 
-    * * * * * Rscript /srv/shiny-system/cron/cpu.R
+    $ * * * * * Rscript /srv/shiny-system/cron/cpu.R
 
 # Arch Linux
 
@@ -117,15 +117,15 @@ Ref:
 
 To check what Linux release you are running on your server:
 
-$ cat /etc/*-release
+    $ cat /etc/*-release
 
-NAME="Arch Linux"
-ID=arch
-PRETTY_NAME="Arch Linux"
-ANSI_COLOR="0;36"
-HOME_URL="https://www.archlinux.org/"
-SUPPORT_URL="https://bbs.archlinux.org/"
-BUG_REPORT_URL="https://bugs.archlinux.org/"
+    NAME="Arch Linux"
+    ID=arch
+    PRETTY_NAME="Arch Linux"
+    ANSI_COLOR="0;36"
+    HOME_URL="https://www.archlinux.org/"
+    SUPPORT_URL="https://bbs.archlinux.org/"
+    BUG_REPORT_URL="https://bugs.archlinux.org/"
 
 ## Install net-tools for netstat
 
