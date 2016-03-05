@@ -101,8 +101,8 @@ shinyServer(function(input, output, session) {
     source('source/server/getDataPolar2.R', local = TRUE)
 
     # Include rendering functions.
-    # source('source/server/renderUI.R', local = TRUE)
-    # source('source/server/renderDataTable.R', local = TRUE)
+    source('source/server/renderUI.R', local = TRUE)
+    source('source/server/renderDataTable.R', local = TRUE)
 
     # Render the plot.
     output$plot <- renderPlot({
@@ -117,9 +117,6 @@ shinyServer(function(input, output, session) {
 
         # Include the global vars.
         source('source/server/vars.R', local = TRUE)
-
-        # Log.
-        # logme(paste('selected plot: ', plot))
 
         # @ reference: http://shiny.rstudio.com/gallery/progress-bar-example.html
         # Create a Progress object
