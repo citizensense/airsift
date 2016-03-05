@@ -4,31 +4,6 @@ getDataPolar2 <- reactive({
     # Log.
     logme('POLAR2 DATA')
 
-    query <- "
-        SELECT
-            s.timestamp,
-            s.particle_concentration as `PM2.5`,
-            s.humidity,
-            w.wdird,
-            w.wspdi,
-            w.hum,
-            w.tempi,
-            w.visi,
-            n.code
-        FROM speckdata AS s
-
-        LEFT JOIN weatherunderground AS w
-        ON s.wid_timestamp = w.wid_timestamp
-
-        LEFT JOIN nodes AS n
-        ON n.nid = s.nid
-        AND n.datatype = 'speck'
-
-        WHERE DATE(localdate) BETWEEN 'DATE1' AND 'DATE2'
-        AND `PM2.5` > '15'
-        AND n.nid = 'SITE'
-    "
-
     # Prepare SQL query1.
     query <- "
         SELECT
