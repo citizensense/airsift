@@ -109,7 +109,8 @@ Ref:
 
 4. Add entries to your own user's crontab file,
 
-    $ * * * * * Rscript /srv/shiny-system/cron/cpu.R
+    $ * * * * * Rscript /srv/shiny-system/cron/specks/cpu.R
+    $ * * * * * Rscript /srv/shiny-system/cron/fracks/cpu.R
 
 # Arch Linux
 
@@ -171,7 +172,8 @@ Note that adding cron tasks as a user does not work on the production/ live serv
 
     $ crontab -e
 
-    * * * * * Rscript /srv/shiny-system/cron/cpu.R
+    * * * * * Rscript /srv/shiny-system/cron/specks/cpu.R
+    * * * * * Rscript /srv/shiny-system/cron/fracks/cpu.R
     ~
     ~
     "/tmp/crontab.8VZ7vq" 1 line, 47 characters
@@ -183,19 +185,30 @@ On the production server, you should add the cron task as a root or the tasks wo
     $ sudo crontab -e
 
     * * * * * Rscript /srv/shiny-system/cron/specks/cpu.R
+    * * * * * Rscript /srv/shiny-system/cron/fracks/cpu.R
     ~
     ~
     "/tmp/crontab.8VZ7vq" 1 line, 47 characters
 
+Add vim to your crontab editor env that makes it easy to edit the cron tasks:
+
+    $ sudo EDITOR=vim crontab -e
+
 You can run the cpu.R manually by type this in your terminal,
 
-    $ Rscript /srv/shiny-system/cron/cpu.R
+    $ Rscript /srv/shiny-system/cron/specks/cpu.R
+    $ Rscript /srv/shiny-system/cron/fracks/cpu.R
+
+Ref:
+
+1. https://bbs.archlinux.org/viewtopic.php?id=78700
+2. https://archlinuxarm.org/forum/viewtopic.php?f=53&t=6281
 
 ## List cron tasks
 
 Check what tasks are running:
 
-    $ crontab -l
+    $ sudo crontab -l
 
 # Final notes
 
