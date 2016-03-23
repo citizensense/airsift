@@ -35,8 +35,7 @@ conditions_choices <- c(
     'Temperature in Fahrenheit' = 'tempi',
     'Humidity %' = 'hum',
     'Wind speed in miles per hour' = 'wspdi',
-    'Wind direction in degrees' = 'wdird',
-    'Visibility in miles' = 'visi'
+    'Wind direction in degrees' = 'wdird'
 )
 
 # Set choices of title and code for select input.

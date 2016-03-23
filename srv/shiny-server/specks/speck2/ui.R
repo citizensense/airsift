@@ -46,8 +46,7 @@ conditions_choices <- c(
     'Temperature in Fahrenheit' = 'tempi',
     'Humidity %' = 'hum',
     'Wind speed in miles per hour' = 'wspdi',
-    'Wind direction in degrees' = 'wdird',
-    'Visibility in miles' = 'visi'
+    'Wind direction in degrees' = 'wdird'
 )
 
 # Site 1 options.
@@ -258,16 +257,16 @@ shinyUI(fluidPage(verticalLayout(
         #textOutput("test")
 
         # Plot the data.
-        plotOutput("plot")
+        plotOutput("plot"),
 
-        # # Render site description.
-        # htmlOutput("text"),
+        # Render site description.
+        htmlOutput("text"),
 
-        # # Render table output.
-        # div(
-        #     dataTableOutput("annotations"),
-        #     style = "font-size:11px"
-        # )
+        # Render table output.
+        div(
+            dataTableOutput("annotations"),
+            style = "font-size:11px"
+        )
     )
     # div
 

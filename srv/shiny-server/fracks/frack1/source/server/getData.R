@@ -11,7 +11,7 @@ getData <- reactive({
             s.NOppb,
             s.NO2ppb,
             s.O3ppb,
-            s.NO2ppb,
+            s.O3no2ppb,
             s.PIDppm,
             CASE WHEN s.XHumid = '-9999.0' THEN NULL ELSE s.XHumid END AS humidity,
             CASE WHEN w.wdird = '0' AND w.wspdi = '0.0' THEN NULL ELSE CASE WHEN w.wdird = '0' AND w.wspdi = '-9999.0' THEN NULL ELSE w.wdird END END AS wdird,

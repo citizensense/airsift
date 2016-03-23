@@ -1,4 +1,12 @@
-# server.R
+# shinyServer(function(input, output, session) {
+#     CPU <- read.table("../../../../../../../srv/shiny-system/cron/cs/CPU.txt")
+#     App <- data.frame(app = c("speck1", "speck2", "speck3", "speck4"))
+#     App <- merge(App, CPU, all.x = TRUE)
+#     App$usr[which(is.na(App$usr))] <- 0
+#     Link <- paste("http://127.0.0.1:3838/cs/", App$app[which.min(App$usr)], sep = "")
+#     updateTextInput(session, inputId = "link", value = Link)
+# })
+
 shinyServer(function(input, output, session) {
   output$uiHTML <- renderUI({
 

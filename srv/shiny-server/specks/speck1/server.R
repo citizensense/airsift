@@ -35,8 +35,7 @@ conditions_choices <- c(
     'Temperature in Fahrenheit' = 'tempi',
     'Humidity %' = 'hum',
     'Wind speed in miles per hour' = 'wspdi',
-    'Wind direction in degrees' = 'wdird',
-    'Visibility in miles' = 'visi'
+    'Wind direction in degrees' = 'wdird'
 )
 
 # Set choices of title and code for select input.
@@ -99,10 +98,6 @@ shinyServer(function(input, output, session) {
     source('source/server/getData.R', local = TRUE)
     source('source/server/getDataCalendar.R', local = TRUE)
     source('source/server/getDataPolar2.R', local = TRUE)
-
-    # Include rendering functions.
-    source('source/server/renderUI.R', local = TRUE)
-    source('source/server/renderDataTable.R', local = TRUE)
 
     # Render the plot.
     output$plot <- renderPlot({

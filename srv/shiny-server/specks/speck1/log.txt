@@ -1,0 +1,32 @@
+
+Fri Mar 18 07:28:44 PM 2016 | START//
+
+Warning in checkPrep(mydata, vars, type, remove.calm = FALSE) :
+  Detected data with Daylight Saving Time, converting to UTC/GMT
+12.74804 seconds
+
+Fri Mar 18 07:28:57 PM 2016 | END//
+
+2.636642 seconds
+
+Fri Mar 18 07:29:05 PM 2016 | END//
+
+Warning: Not enough data to fit surface.
+Try reducing the value of the smoothing parameter, k to less than 25.
+2.698617 seconds
+
+Fri Mar 18 07:30:06 PM 2016 | END//
+
+2.894154 seconds
+
+Fri Mar 18 07:30:16 PM 2016 | END//
+
+
+Fri Mar 18 07:30:21 PM 2016 | CALENDAR DATAWarning in calendarPlot(sub = plot_main_title, all_data, pollutant = species) :
+  'year not supplied, using' 2014
+Warning in checkPrep(mydata, vars, "default", remove.calm = FALSE, strip.white = FALSE) :
+  Detected data with Daylight Saving Time, converting to UTC/GMT
+7.014864 seconds
+
+Fri Mar 18 07:30:26 PM 2016 | END//
+Execution halted

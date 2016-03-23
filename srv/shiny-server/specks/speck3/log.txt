@@ -1,0 +1,9 @@
+
+Sun Mar 06 08:46:44 PM 2016 | START//
+
+Warning in checkPrep(mydata, vars, type, remove.calm = FALSE) :
+  Detected data with Daylight Saving Time, converting to UTC/GMT
+10.64649 seconds
+
+Sun Mar 06 08:46:55 PM 2016 | END//
+

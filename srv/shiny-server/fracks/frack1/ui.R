@@ -17,14 +17,36 @@ sites <- dbGetQuery(
 # Set the nid and title.
 site_choices <- setNames(sites$nid, sites$title)
 
+# # Set choices of title and code for select input.
+# # This is causing some error, such as: 'Can't find the variable(s) ​PIDppm'
+# # Don't know why... but the column PIDppm does exist with data!
+# species_choices <- c(
+#     '​Nitrogen Oxide (ppb)' = 'NOppb',
+#     '​Nitrogen Dioxide (ppb)' = 'NO2ppb',
+#     '​Ozone  (ppb) (sensor 1)' = '​O3ppb',
+#     '​Ozone (ppb) (sensor 2)' = 'O3no2ppb',
+#     '​Volatile Organic Compounds (ppm)' = '​PIDppm'
+# )
+
+# Create the species table for select input.
+title <- c(
+    'Nitrogen Oxide (ppb)',
+    'Nitrogen Dioxide (ppb)',
+    'Ozone  (ppb) (sensor 1)',
+    'Ozone (ppb) (sensor 2)',
+    'Volatile Organic Compounds (ppm)'
+    )
+code <- c(
+    'NOppb',
+    'NO2ppb',
+    'O3ppb',
+    'O3no2ppb',
+    'PIDppm'
+    )
+species <- data.frame(code, title, stringsAsFactors = FALSE)
+
 # Set choices of title and code for select input.
-species_choices <- c(
-    '​Nitrogen Oxide (ppb)' = 'NOppb',
-    '​Nitrogen Dioxide (ppb)' = 'NO2ppb',
-    '​Ozone  (ppb) (sensor 1)' = '​O3ppb',
-    '​Ozone (ppb) (sensor 2)' = 'O2No2ppb',
-    '​Volatile Organic Compounds (ppm)' = '​PIDppm'
-)
+species_choices <- setNames(species$code, species$title)
 
 # Set choices of title and code for select input.
 means_choices <- c(

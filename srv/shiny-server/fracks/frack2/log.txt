@@ -5,3 +5,5 @@ Sat Mar 12 02:32:58 PM 2016 | Start plotting =========>Warning in checkPrep(myda
   Detected data with Daylight Saving Time, converting to UTC/GMT
 
 Sat Mar 12 02:33:14 PM 2016 | Plot took: 15.59171 seconds
+
+Execution halted
