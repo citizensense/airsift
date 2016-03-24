@@ -31,16 +31,6 @@ means_choices <- c(
 )
 
 # Set choices of title and code for select input.
-types_choices_goolgemap <- c(
-    'Hour' = 'hour',
-    'Weekday' = 'weekday',
-    'Daylight' = 'daylight',
-    'Month' = 'month',
-    'Year' = 'year',
-    'Season' = 'season'
-)
-
-# Set choices of title and code for select input.
 conditions_choices <- c(
     'Device Humidity %' = 'humidity',
     'Temperature in Fahrenheit' = 'tempi',
@@ -136,22 +126,6 @@ shinyUI(fluidPage(verticalLayout(
             ),
             column(5,
 
-                # Condition for googlemaps plot.
-                conditionalPanel(
-                    condition = "input.plot == 'googlemaps'",
-                    radioButtons(
-                        inputId = "variation_googlemaps",
-                        label = "Choose a variation:",
-                        choices = c(
-                            "Annual" = "annual",
-                            "Means" = "means",
-                            "Peaks" = "peaks"
-                        ),
-                        selected = NULL,
-                        inline = FALSE
-                    )
-                ),
-
                 # Site select input.
                 # Condition when the plot is a line plot.
                 conditionalPanel(
@@ -189,7 +163,7 @@ shinyUI(fluidPage(verticalLayout(
 
                 # Condition when the plot is not Polar Plot.
                 conditionalPanel(
-                    condition = "input.condition == 'yes' && input.variation_line != 'single' && input.plot != 'polar1' && input.plot != 'polar2' && input.plot != 'rose' && input.plot != 'calendar' && input.lineVariation != 'single' && input.plot != 'googlemaps' && input.plot != 'time'",
+                    condition = "input.condition == 'yes' && input.variation_line != 'single' && input.plot != 'polar1' && input.plot != 'polar2' && input.plot != 'rose' && input.plot != 'calendar' && input.lineVariation != 'single' && input.plot != 'time'",
                     selectInput(
                         inputId = "conditions",
                         label = "Weather Conditions:",
@@ -202,7 +176,7 @@ shinyUI(fluidPage(verticalLayout(
 
                 # Date.
                 conditionalPanel(
-                    condition = "input.plot != 'calendar' && input.plot != 'googlemaps'",
+                    condition = "input.plot != 'calendar'",
                     # Date from.
                     dateInput(
                         inputId =  "date_from",
@@ -223,13 +197,13 @@ shinyUI(fluidPage(verticalLayout(
 
                 # Year.
                 conditionalPanel(
-                    condition = "input.plot == 'calendar' || input.plot == 'googlemaps'",
+                    condition = "input.plot == 'calendar'",
                     #numericInput("year", "Year:", 2014,
                     #min = 2014, max = 2015)
                     selectInput(
                         inputId = "year",
                         label = "Year:",
-                        choices = c(2014, as.integer(format(Sys.Date(), "%Y")))
+                        choices = c(2014, 2015)
                     )
                 ),
 

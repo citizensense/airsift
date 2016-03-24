@@ -1,32 +1,64 @@
 
-Fri Mar 18 07:28:44 PM 2016 | START//
+Thu Mar 24 10:19:10 PM 2016 | START//
 
 Warning in checkPrep(mydata, vars, type, remove.calm = FALSE) :
   Detected data with Daylight Saving Time, converting to UTC/GMT
-12.74804 seconds
+16.86235 seconds
 
-Fri Mar 18 07:28:57 PM 2016 | END//
+Thu Mar 24 10:19:27 PM 2016 | END//
 
-2.636642 seconds
+Warning in checkPrep(mydata, vars, type, remove.calm = FALSE) :
+  Detected data with Daylight Saving Time, converting to UTC/GMT
+10.8561 seconds
 
-Fri Mar 18 07:29:05 PM 2016 | END//
+Thu Mar 24 10:22:07 PM 2016 | END//
+
+Warning in checkPrep(mydata, vars, type, remove.calm = FALSE) :
+  Detected data with Daylight Saving Time, converting to UTC/GMT
+11.23648 seconds
+
+Thu Mar 24 10:23:56 PM 2016 | END//
+
+Warning in checkPrep(mydata, vars, type, remove.calm = FALSE) :
+  Detected data with Daylight Saving Time, converting to UTC/GMT
+2.733649 seconds
+
+Thu Mar 24 10:24:24 PM 2016 | END//
+
+2.680952 seconds
+
+Thu Mar 24 10:24:34 PM 2016 | END//
 
 Warning: Not enough data to fit surface.
 Try reducing the value of the smoothing parameter, k to less than 25.
-2.698617 seconds
+2.69994 seconds
 
-Fri Mar 18 07:30:06 PM 2016 | END//
-
-2.894154 seconds
-
-Fri Mar 18 07:30:16 PM 2016 | END//
+Thu Mar 24 10:24:41 PM 2016 | END//
 
 
-Fri Mar 18 07:30:21 PM 2016 | CALENDAR DATAWarning in calendarPlot(sub = plot_main_title, all_data, pollutant = species) :
+Thu Mar 24 10:24:46 PM 2016 | CALENDAR DATAWarning in calendarPlot(sub = plot_main_title, all_data, pollutant = species) :
   'year not supplied, using' 2014
 Warning in checkPrep(mydata, vars, "default", remove.calm = FALSE, strip.white = FALSE) :
   Detected data with Daylight Saving Time, converting to UTC/GMT
-7.014864 seconds
+6.9753 seconds
 
-Fri Mar 18 07:30:26 PM 2016 | END//
+Thu Mar 24 10:24:51 PM 2016 | END//
+
+Warning in checkPrep(mydata, vars, type, remove.calm = FALSE) :
+  Detected data with Daylight Saving Time, converting to UTC/GMT
+2.901801 seconds
+
+Thu Mar 24 10:24:56 PM 2016 | END//
+
+Warning in checkPrep(mydata, vars, type, remove.calm = FALSE) :
+  Detected data with Daylight Saving Time, converting to UTC/GMT
+10.80472 seconds
+
+Thu Mar 24 10:25:19 PM 2016 | END//
+
+Warning in checkPrep(mydata, vars, type, remove.calm = FALSE) :
+  Detected data with Daylight Saving Time, converting to UTC/GMT
+2.879969 seconds
+
+Thu Mar 24 10:25:28 PM 2016 | END//
 Execution halted
