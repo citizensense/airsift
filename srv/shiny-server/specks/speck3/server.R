@@ -99,10 +99,6 @@ shinyServer(function(input, output, session) {
     source('source/server/getDataCalendar.R', local = TRUE)
     source('source/server/getDataPolar2.R', local = TRUE)
 
-    # Include rendering functions.
-    source('source/server/renderUI.R', local = TRUE)
-    source('source/server/renderDataTable.R', local = TRUE)
-
     # Render the plot.
     output$plot <- renderPlot({
 
