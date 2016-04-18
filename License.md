@@ -1,12 +1,12 @@
 #LICENSE
-The source code and data set (including plots and csv files) for Airsift, Airsift pm2.5 and Airsift frackbox, Copyright (C) 2016  Citizen Sense, Department of Sociology. Goldsmiths University of London, are distributed under the terms of the GNU GPL.   
+The source code and data set (including plots and csv files) for Airsift, Airsift PM2.5 and Airsift Frackbox, Copyright (C) 2016  Citizen Sense, Department of Sociology, Goldsmiths University of London, are distributed under the terms of the GNU GPL.   
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. <http://www.gnu.org/licenses/>. 
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. <http://www.gnu.org/licenses/>. 
 
 Airsift incorporates code from openair, Copyright © 2015 David C. Carslaw. Openair is distributed under the terms of the GNU GPL.
 
-Airsift incorporates code from Shiny, Rstudio.The shiny package as a whole is distributed under GPL-3.
+Airsift incorporates code from Shiny, Rstudio. The shiny package as a whole is distributed under GPL-3.
 
 
 Redistribution and use in source and binary forms, with or without modification, are permitted as noted above provided that the following conditions are met:
@@ -24,7 +24,7 @@ Redistribution and use in source and binary forms, with or without modification,
     * Use in source and binary forms, with or without modification, must be compliant with the following Charter of Use.
 
 #CHARTER OF USE
-The code and data of Airsift is hereby released under a permissive open-source license GNU GPL. In line with the open-source principle, the Airsift and Citizen Sense supports and encourages efforts by individuals and communities to extend, adapt, transform or  repurpose, or the code of Airsift hereby released for the development of new projects. Nonetheless, all users of the code of Airsif hereby released are required to comply with the "do no harm" principle. In particular, the use of all or part of the code of Airsift is forbidden for:
+The code and data of Airsift is hereby released under a permissive open-source license GNU GPL. In line with the open-source principle, the Airsift and Citizen Sense supports and encourages efforts by individuals and communities to extend, adapt, transform or repurpose the code of Airsift hereby released for the development of new projects. Nonetheless, all users of the code of Airsift hereby released are required to comply with the "do no harm" principle. In particular, the use of all or part of the code of Airsift is forbidden for:
 
       * Activities that may compromise the security of vulnerable individuals or communities, anywhere in the world;
 
