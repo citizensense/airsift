@@ -1,5 +1,5 @@
 # Airsift
-The Airsift PM2.5 Data Analysis Toolkit has been developed by Citizen Sense with citizen-generated air quality data collected in Pennsylvania as part of the “Pollution Sensing” project area. 
+The Airsift PM2.5 and Airsift Frackbox, Data Analysis Toolkit has been developed by Citizen Sense for use with citizen-generated air quality data collected in Pennsylvania as part of the “Pollution Sensing” project area.For more information see http://www.citizensense.net/psresources/about-airsift/. The toolkit is Free and Open Source. 
 
 # Credits
 
