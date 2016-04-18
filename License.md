@@ -1,5 +1,5 @@
 #LICENSE
-The source code and data set (including plots and csv files) for Airsift, Airsift pm2.5 and Airsift frackbox, Copyright (C) 2016  Citizen Sense, Department of Sociology. Goldsmiths University of London, is distributed under the terms of the GNU GPL.   
+The source code and data set (including plots and csv files) for Airsift, Airsift pm2.5 and Airsift frackbox, Copyright (C) 2016  Citizen Sense, Department of Sociology. Goldsmiths University of London, are distributed under the terms of the GNU GPL.   
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. <http://www.gnu.org/licenses/>. 
