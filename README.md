@@ -1,13 +1,13 @@
 # Airsift
-The Airsift PM2.5 and Airsift Frackbox, Data Analysis Toolkits have been developed by Citizen Sense for use with citizen-generated air quality data collected in Pennsylvania as part of the “Pollution Sensing” project area.For more information see http://www.citizensense.net/psresources/about-airsift/. The toolkit is Free and Open Source. 
+The Airsift PM2.5 and Airsift Frackbox Data Analysis Toolkits have been developed by Citizen Sense for use with citizen-generated air quality data collected as part of the “Pollution Sensing” project area. For more information see http://www.citizensense.net/psresources/about-airsift/. The toolkit is Free and Open Source. 
 
 # Credits
 
-The research leading to these results has received funding from the European Research Council under the European Union's Seventh Framework Programme (FP/2007-2013) / ERC Grant Agreement n. 313347, “Citizen Sensing and Environmental Practice: Assessing Participatory Engagements with Environments through Sensor Technologies.” For more information on the project and contributors, see http://www.citizensense.net
+The research leading to these results has received funding from the European Research Council under the European Union's Seventh Framework Programme (FP/2007-2013) / ERC Grant Agreement n. 313347, “Citizen Sensing and Environmental Practice: Assessing Participatory Engagements with Environments through Sensor Technologies.” For more information on the project and contributors, see http://citizensense.net
 
 # License and Charter of Use
 
-The source code for Airsift, Airsift pm2.5 and Airsift frackbox, Copyright (C) <2016>  Citizen Sense is distributed under the terms of the GNU GPL.   
+The source code for Airsift, Airsift PM2.5 and Airsift frackbox, Copyright (C) <2016>  Citizen Sense is distributed under the terms of the GNU GPL.   
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. See "License" file of Airsift for full details.
 
