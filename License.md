@@ -26,12 +26,12 @@ Redistribution and use in source and binary forms, with or without modification,
 #CHARTER OF USE
 The code and data of Airsift is hereby released under a permissive open-source license GNU GPL. In line with the open-source principle, the Airsift and Citizen Sense supports and encourages efforts by individuals and communities to extend, adapt, transform or  repurpose, or the code of Airsift hereby released for the development of new projects. Nonetheless, all users of the code of Airsif hereby released are required to comply with the "do no harm" principle. In particular, the use of all or part of the code of Airsift is forbidden for:
 
-   * Activities that may compromise the security of vulnerable individuals or communities, anywhere in the world;
+      * Activities that may compromise the security of vulnerable individuals or communities, anywhere in the world;
 
-   * Activities that aim at tracking, surveying, or targeting specific individuals or communities for the purpose of harming them        directly or indirectly;
+      * Activities that aim at tracking, surveying, or targeting specific individuals or communities for the purpose of harming them      directly or indirectly;
 
-   * Activities that may disclose sensitive or personal information about individuals
-     or communities without having obtained their explicit and informed consent in advance.
+      * Activities that may disclose sensitive or personal information about individuals
+         or communities without having obtained their explicit and informed consent in advance.
 
 By running or using any software application that includes all or part of the code or data Airsift hereby released, you commit to the respect of the present Charter of Use.
 
