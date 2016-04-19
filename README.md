@@ -50,7 +50,7 @@ Ref:
 1. http://stackoverflow.com/questions/30794035/install-packagesdevtools-on-r-3-0-2-fails-in-ubuntu-14-04
 2. http://stackoverflow.com/questions/20923209/problems-installing-the-devtools-package
 
-# Ubuntu Linux (Localhost)
+# Ubuntu Linux (Developer Server)
 
 ## Install Shiny Server
 
@@ -116,20 +116,22 @@ Ref:
 
 1. Create shiny-system folder via terminal:
 
-    $ mkdir /srv/shiny-system/
+    `$ mkdir /srv/shiny-system/`
 
 2. Create cron folder and keep cpu.R in this folder.
 
 3. Start the crontab editor from a terminal window,
 
-    $ crontab -e
+    `$ crontab -e`
 
 4. Add entries to your own user's crontab file,
 
+    ```
     $ * * * * * Rscript /srv/shiny-system/cron/specks/cpu.R
     $ * * * * * Rscript /srv/shiny-system/cron/fracks/cpu.R
+    ```
 
-# Arch Linux
+# Arch Linux (Production Server)
 
 ## Check release
 
